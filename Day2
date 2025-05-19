@@ -1,0 +1,57 @@
+#operators in python
+#1.Arthimetic Operators(=,-,*,/,%,**,//)
+a=7
+b=2
+print(a+b)--->output:9
+print(a-b)--->output:5
+print(a*b)--->output:14
+print(a/b)--->output:3.5
+print(a%b)--->output:1
+print(a**b)--->output:49
+print(a//b)--->output:3
+
+#2.Comparsion Operator
+print(a>b)--->output:True
+print(a<b)--->output:False
+print(a>=b)--->output:True
+print(a<=b)--->output:False
+print(a==b)--->output:False
+print(a!=b)--->output:True
+
+#3.Logical Operator(1.L.and ,2.L.or , 3.L.not)
+a=10
+b=20
+c=30
+d=40
+print((a<b)and(c<d))--->output:True
+print((a<b)or(c<d))--->output:True
+print(not(a<b))--->output:False
+
+#4.Assignment Operator
+x=4
+y=5
+y+=2
+print(y)--->output:7
+x-=3
+print(x)--->output:1
+
+#5.Special Operators
+#1.identity operator
+a=5
+b=5
+c='aditya'
+d='college'
+e='aditya'
+print(a is b)--->output:True
+print(c is d)--->output:False
+print(c is e)--->output:True
+print(a is not b)--->output:False
+print(c is not d)--->output:True
+print(c is not e)--->output:False
+#membership operator
+print('a' in c)--->output:True
+print('a' not in c)--->output:False
+
+#6.Bitwise Operator
+print(5<<2)--->output:20
+print(5>>2)--->output:11
