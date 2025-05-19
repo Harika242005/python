@@ -1,0 +1,81 @@
+#variable
+#it is used to store(temp) data
+_x = 1
+y=2
+_x= 3
+print(_x)--->Output:3
+print(y)--->Output:2
+print(3+2)--->Output:5
+z=3+2
+print(z)--->Output:5
+
+#Data Type 1. Numeric(1.integer 2.float 3.complex)2.Boolean 3.Sequence(1.String 2.list 3. Tuple) 4.Dictionary 5.set
+print(4>3)--->Output:True
+print(4<3)--->Output:False
+
+#Typecasting or Typeconversion(1.implicit 2.Explicit)
+a=3
+b=3.14
+c='Harika'
+#implicit
+print(type(a))--->Output:int
+print(type(b))--->Output:float
+print(type(c))--->Output:str
+#Explicit
+d=b
+print(type(d))--->Output:float
+d = int(b)
+print(type(d))--->Output:int
+print(d)--->Output:3
+e=str(d)
+print(type(e))--->Output:str
+
+#Comments
+#-----for single line
+"""----------------------
+for multiline---
+---------"""
+
+#Input and Output
+print(3+8)--->Output:11
+print('Harika Vani')--->Output:Harika Vani
+
+print('Harika')
+print('Vani')
+   --->Output:Harika
+              Vani
+
+#using 'end'
+print('Harika',end=' ')
+print('Vani')--->Output:Harika Vani
+
+#Usind 'Sep' separator
+print('Harika','Vani',sep='-')--->Output:Harika-Vani
+print('Harika','Vani',sep='\t')--->Output:Harika Vani
+print('Harika','Vani',sep='\n')--->Output:Harika
+                                          Vani
+
+a=3.14
+b=int(a)
+print(b)--->Output:3
+c=3
+d=float(c)
+print(d)--->Output:3.00
+
+a=input()--->3
+
+print(a)--->Output:3
+
+num1=(input('Enter first number'))
+num2=(input('Enter second number'))
+print(num1,num2,sep="\n")
+print(num1+num2)
+   --->Output:Enter first number:2
+              Enter Second number:3
+              2
+              3
+              23
+num1=int(num1)
+num2=int(num2)
+print(num1+num2)
+    --->Output:5
