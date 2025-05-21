@@ -1,0 +1,36 @@
+#BasicPrograms
+#1.Area of Rectangle
+l=int(input("Enter Length:"))
+b=int(input("Enter Breadth:"))
+print("Area of Rectangle is:",l*b)
+/*Output:Enter Length:2
+Enter Breadth:3
+Area of Rectangle is: 6*/
+
+#or use split
+l,b=input().split()
+l=int(l)
+b=int(b)
+print("Area of Rectangle is:",l*b)
+/*2 3
+Area of Rectangle is: 6*/
+
+#print name and age
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print("Your name is", name, "and you are", age, "years old.")
+/*Enter your name: HARIKA
+Enter your age: 20
+Your name is HARIKA and you are 20 years old.*/
+
+#Calculate Simple Interest
+P=int(input("Enter Principal Amount:"))
+R=int(input("Enter Rate of Interest:"))
+T=int(input("Enter Time:"))
+SI=(P*R*T)/100
+print("Simple Interest is:",SI)
+/*Enter Principal Amount:4
+Enter Rate of Interest:8
+Enter Time:5
+Simple Interest is: 1.6*/
+
