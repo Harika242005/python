@@ -34,3 +34,13 @@ Enter Rate of Interest:8
 Enter Time:5
 Simple Interest is: 1.6*/
 
+#Swap-Case
+a=3
+b=4
+print('a=',a,'b=',b)
+print('After Swapping a and b')
+a,b=b,a
+print('a=',a,'b=',b)
+/*Output:a= 3 b= 4
+After Swapping a and b
+a= 4 b= 3*/
