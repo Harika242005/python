@@ -1,0 +1,215 @@
+print('Hi') """-->OUTPUT:  Hi"""
+
+#Selection (or) Conditional statement(if,if-else,if-elif-else)
+a = int(input("Enter a number"))
+if a==4:
+  print('Hi')
+print('Outside')
+"""-->OUTPUT:Enter a number4
+Hi
+Outside"""
+
+a=int(input())
+if a>4:
+  if a<10:
+    print('a is greater than 4 less than 10')
+"""-->OUTPUT:5
+a is greater than 4 less than 10"""
+
+#if-else
+a = int(input("Enter a number"))
+if a==4:
+  print('Inside')
+else:
+  print('Outside')
+"""-->OUTPUT:Enter a number3
+Outside"""
+
+#if-elif-else
+a=int(input('Enterr a Number'))
+if a==2:
+  print('a is 2')
+elif a>6:
+  print('a is greater than 6')
+elif a<6:
+  print('a is less than 6')
+else:
+  print('Outside')
+"""-->OUTPUT:Enterr a Number3
+a is less than 6"""
+
+#2.Iterative (or) Looping Statement(while,for)
+x=5
+while x>0:
+  print(x)
+  x=x-1
+print('Outside')
+"""-->OUTPUT:5
+4
+3
+2
+1
+Outside"""
+
+b=0
+while b<5:
+  print(b)
+  b=b+1
+"""-->OUTPUT:0
+1
+2
+3
+4"""
+
+for X in range(5):
+  print(X)
+"""-->OUTPUT:0
+1
+2
+3
+4"""
+
+S='Aditya'
+for n in S:
+  print(n)
+"""-->OUTPUT:A
+d
+i
+t
+y
+a"""
+
+lang=['java','python','c','c++']
+for language in lang:
+  print(language)
+"""-->OUTPUT:java
+python
+c
+c++"""
+
+n=0
+while n<5:
+  if n==2:
+    n=n+1
+    continue
+  print(n)
+  n=n+1
+print('Outside')
+"""-->OUTPUT:0
+1
+3
+4
+Outside"""
+
+#Transfer Statement(break,continue)
+n=0
+while n<5:
+  if n==2:
+    n=n+1
+    break
+  print(n)
+  n=n+1
+print('Outside')
+"""-->OUTPUT:0
+1
+Outside"""
+
+#Swap-Case
+a=3
+b=4
+print('a=',a,'b=',b)
+print('After Swapping a and b')
+a,b=b,a
+print('a=',a,'b=',b)
+"""-->OUTPUT:a= 3 b= 4
+After Swapping a and b
+a= 4 b= 3"""
+
+#PROBLEMS
+#1.factorial of a number
+n = int(input())
+ans =1
+if i==0:
+  print("1")
+elif n<0:
+  print("Error")
+else:
+  for i in range(i,n+1):
+    ans=ans*i
+print(ans)
+"""-->OUTPUT:0
+             1"""
+
+#2.Sum of Even numbers 
+n = int(input())
+ans=0
+for i in range(1,n+1):
+  if i%2==0:
+    ans=ans+i
+print(ans)
+"""-->OUTPUT:6
+             12"""
+
+#3.Power of a number
+x=int(input())
+n=int(input())
+ans=1
+for i in range(n):
+  ans = ans*x
+print(ans)
+"""-->OUTPUT:
+3
+4
+81"""
+
+print(range(5))
+"""-->OUTPUT:range(0, 5)"""
+
+#4.F-C
+F=float(input())
+C=float((F - 32) * 5/9)
+print(C)
+"""-->OUTPUT:
+98.6
+37.0"""
+
+#C-F
+C= float(input())
+F = (C * 9/5) + 32
+print(F)
+"""-->OUTPUT:
+37
+98.6"""
+
+#Sum of all odd numbers and even numbers
+n=int(input())
+ans1=0
+ans2=0
+for i in range(n):
+  if i%2==0:
+    ans1=ans1+i
+  elif(i%2!=0):
+    ans2=ans2+i
+print(ans1)
+print(ans2)
+"""-->OUTPUT:
+7
+12
+9"""
+
+#Sum of even numbers and odd numbers in given input 
+n=input()
+ans1=0
+ans2=0
+for i in n:
+    if int(i)%2==0:
+      ans1=ans1+int(i)
+    else:
+       ans2=ans2+int(i)
+print(ans1)
+print(ans2)
+"""-->OUTPUT:
+16345
+10"""
+9
+
